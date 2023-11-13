@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PaginaMaestra.master.cs" Inherits="SegundoParcial.PaginaMaestra" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="estilos.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div id="navbar">
+                <br />
+                <ul>
+                <li>
+                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Registracion.aspx" Font-Bold="True" Font-Italic="True" Font-Underline="True">Registración</asp:HyperLink><br />
+               </li>
+
+                    
+                <li>    
+                    <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/GestionDeArchivos.aspx" Font-Bold="True" Font-Italic="True" Font-Underline="True">Gestión de archivos</asp:HyperLink>
+            </li>
+                </ul>
+                <br />
+                    </div>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+               <div id="footer">
+                   <br />
+    <asp:Label ID="Label1" runat="server" Text="Label" Font-Bold="True" Font-Italic="True" >Gómez Carlos Andrés</asp:Label>
+<br />
+
+               </div>
+        </div>
+    </form>
+     
+</body>
+</html>

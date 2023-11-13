@@ -1,0 +1,23 @@
+﻿table {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+
+#tabla1 {
+    text-align: left;
+}
+
+#tabla2 td {
+    text-align: center;
+}
+
+td {
+    padding: 10px;
+}
